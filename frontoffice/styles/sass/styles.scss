@@ -1,0 +1,245 @@
+body{
+    
+        display:flex;
+        flex-wrap: wrap;
+        height:100vh;
+    }
+
+    
+header{
+	display: flex;
+	
+	background-color: rgb(151, 218, 151);
+	height: 10%;
+    width: 100%;
+    
+    .titre{
+        width:75%;
+        font-size:30px;
+        font-family: Georgia;
+        text-align: center;
+    }
+    #login {
+        width: 25%;
+    }
+}
+
+#detail{
+    width: 50%;
+    height: 100%;
+    
+}
+
+#produits{
+	
+	background-color: rgb(151, 218, 151);
+	height: 80%;
+    width: 25%;
+
+    #categoriesproduit{
+        height:100%;
+    }
+
+        .titre{
+            font-size:20px;
+            font-family: Georgia;
+            text-align: center;
+            
+        }
+        #rouge{
+
+            background-color: red;
+        } 
+        
+        #blanc{
+            background-color: rgb(253, 249, 249);
+        } 
+        
+        #rose{
+
+           background-color: pink;
+        }
+
+        #rouge, #blanc, #rose {
+
+            display: flex;
+            height:10%;
+           
+
+                .item {
+                    border-radius: 10px;
+                    height: 50px;
+                    width: 50px;
+                    margin: 10px;
+                span{
+                    font-size:10px;
+                    margin: auto;
+
+                }
+            }
+        }
+
+
+    }    
+
+    #produitsvendeur{
+        
+        background-color: rgb(184, 167, 167);
+        /* calcul les X% - 2px du border*/
+        // height: calc(80% - 10px);
+        // width: calc(75% - 10px);
+        height: 80%;
+        width: 75%;
+        // display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;   
+        
+        .container {
+            width: 100%;
+            display: flex;
+            
+        
+         }
+    
+         #containermain {
+            
+                .item  {
+                    border-radius: 10px;
+                    height: 70px;
+                    width: 70px;
+                    margin: 10px;
+                    
+                    span{
+                        font-size:10px;
+                        margin: 20px;
+                        
+                
+                         }
+            
+                }
+                  
+            }
+
+        #containermaincat{
+            // display:none;
+            .item  {
+                border-radius: 10px;
+                height: 70px;
+                width: 70px;
+                margin: 10px;
+                
+                span{
+                    font-size:10px;
+                    margin: 20px;
+                    
+            
+                     }
+        
+            }
+        }
+    }
+    
+
+
+
+
+.container .rouge {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    
+}
+.container .blanc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+ 
+}
+
+.container .rose {
+    width: 100%;
+    height: 100%;
+    display: flex;
+ 
+}
+
+
+#item1 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(212, 52, 31);
+    
+}
+
+#item2 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(236, 76, 76);
+
+}
+
+#item3 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(230, 105, 111);
+
+}
+
+#item4 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(237, 241, 240);
+
+}
+
+#item5 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(247, 250, 249);
+
+}
+
+#item6 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(238, 243, 240);
+
+}
+
+#item7 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(233, 164, 168);
+
+}
+
+#item8 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(170, 120, 120);
+
+}
+
+#item9 {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: rgb(184, 146, 150);
+
+}
+
+footer{
+	background-color: rgb(151, 218, 151);
+	height: 10%;
+	width: 100%;
+}

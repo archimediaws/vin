@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/css/reset.css">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <title>VIN FrontOffice</title>
+</head>
+<body>
+
+        <header>
+                
+                <div id="login">
+                   <form>
+                    <label>Login </label><br>
+                    <input type="text" id="vendeurname" placeholder="nom"><br>
+                    <input type="text" id="password" placeholder="password"><br>
+                    <input type="submit" value="se connecter">
+                </form> 
+                </div>
+                
+                <div id="vendorname" class="titre"> <!-- dynamique --><br>
+                    <span>MES PRODUITS / </span>
+                </div>
+                
+        </header> 
+        
+            <section id="produits">
+                    
+                    <!-- <div class ="titre"> <span>GAMMES</span> </div> -->
+                    
+                    <div id="categoriesproduit">
+                        <!-- <h4>Vins Rouge</h4>
+                        <div class="container rouge" id="rouge" >
+                                
+                                <div class="item rouge" id="item1" ><span>Rouge1</span></div>
+                                <div class="item rouge" id="item2" ><span>Rouge2</span></div>
+                                <div class="item rouge" id="item3" ><span>Rouge3</span></div>
+                        </div>
+
+                        <h4>Vins Blanc</h4>
+                        <div class="container blanc" id="blanc" >
+                            
+                                <div class="item blanc" id="item4" ><span>Blanc1</span></div>
+                                <div class="item blanc" id="item5" ><span>Blanc2</span></div>
+                                <div class="item blanc" id="item6" ><span>Blanc3</span></div>
+                        </div>
+
+                        <h4>Vins Rosé</h4>
+                        <div class="container rose" id="rose" >
+                            
+                                <div class="item rose" id="item7" ><span>Rose1</span></div>
+                                <div class="item rose" id="item8" ><span>Rose2</span></div>
+                                <div class="item rose" id="item9" ><span>Rose3</span></div>
+                        </div> -->
+                        
+                        
+                    </div>
+                    
+                </section>
+
+                
+            <section id="produitsvendeur">
+                
+                <div class="container vendor" id="containermain">
+                        
+                </div>
+                <div class="container vendor" id="containermaincat">
+                    
+            </div>
+                <div id="detail"></div>  
+            </section>
+            
+        <footer>
+
+        </footer>
+    
+    
+
+<script src="node_modules/systemjs/dist/system.js"></script>
+<script src="node_modules\jquery\dist\jquery.min.js"></script>
+<script src="JS/main.js"></script>
+<script>
+    System.import('main')
+    .catch(function(err){console.error(err);});
+</script>
+</body>
+</html>
